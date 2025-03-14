@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SibWin</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: white;
+        }
+        .section {
+            background: url('bg.jpg') no-repeat center center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 40px;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            background: black;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            padding: 60px;
+        }
+        .service {
+            max-width: 300px;
+        }
+        .service img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .service h2 {
+            font-size: 30px;
+            margin: 15px 0;
+        }
+        .service p {
+            font-size: 22px;
+        }
+        .section-price {
+            font-family: Arial, sans-serif;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section-price h1 {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 60px;
+        }
+        .service-section {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+        }
+        .service-section h2 {
+            font-size: 1.5em;
+            margin: 20px 0 10px;
+        }
+        .service-section h3 {
+            color: #666;
+            margin: 15px 0 10px;
+        }
+        .service-section p {
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+        .service-section .price {
+            color: black;
+            font-size: 1.2em;
+            font-weight: bold;
+            text-align: right;
+            margin-top: 15px;
+        }
+        .service-section hr {
+            border: 0;
+            border-top: 1px solid #ddd;
+            margin: 30px 0;
+        }
+
+         .footer {
+            display: grid;
+            margin-bottom: 40px;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px; /* расстояние между столбцами */
+            max-width: 800px; /* максимальная ширина контейнера */
+            margin: 0 auto; /* центрирование контейнера */
+        }
+        .item {
+            padding: 10px;
+            text-align: center; /* выравнивание текста по центру */
+            text-decoration: false;
+        }
+
+        .item a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+    </div>
+    <div class="services">
+        <div class="service">
+            <img src="1.jpg" alt="Создание">
+            <h2>Создание стикеров</h2>
+        </div>
+        <div class="service">
+            <img src="2.jpg" alt="Выпуск">
+            <h2>Выпуск в сеть</h2>
+        </div>
+        <div class="service">
+            <img src="3.jpg" alt="Добавление">
+            <h2>Добавление новых</h2>
+        </div>
+    </div>
+    <div class="section-price" id="uslugi">
+        <h1>Список товаров</h1>
+
+        <div class="service-section">
+            <h2>Создание индивидуальных стикеров (640x480)</h2>
+            <div class="price">299 ₽</div>
+        </div>
+
+        <hr>
+
+        <div class="service-section">
+            <h2>Создание индивидуальных стикеров (800x600)</h2>
+            <div class="price">499 ₽</div>
+        </div>
+
+        <hr>
+
+        <div class="service-section">
+            <h2>Создание индивидуальных стикеров (1024x768)</h2>
+            <div class="price">999 ₽</div>
+        </div>
+
+        <hr>
+
+    </div>
+
+    <div class="footer">
+        <div class="item">ИП Новиков Д.А.</div>
+        <div class="item"><a href="https://clck.ru/3HPmaw">Публичная оферта</a></div>
+        <div class="item">+7 (923) 396-12-72 (Telegram, WhatsApp)</div>
+
+        <div class="item">ИНН 190308076122</div>
+        <div class="item"><a href="/policy.html">Правила оплаты </a></div>
+        <div class="item">denisnovikov89@mail.ru</div>
+
+        <div class="item">ОГРНИП 325190000000442</div>
+        <div class="item"><a href="/refund.html">Правила возврата денежных средств</a></div>
+        <div class="item">Круглосуточно</div>
+
+        
+        <div class="item"></div>
+        <div class="item">Россия, республика Хакасия г. Черногорск ул. Советская 67 офис 303</div>
+        <div class="item"></div>
+        <hr>
+
+    </div>
+
+</body>
+</html>
